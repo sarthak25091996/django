@@ -1,0 +1,109 @@
+.heading {
+	background-color:#424242;
+	text-align:center;
+	width:100%;
+	padding:1px;
+	margin:0px;
+}
+
+.heading-text {
+	color:white;
+	font-size:30px;
+}
+
+#instructions {
+	background-color:#ff8a80;
+	border-radius:20px;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:10px;
+	padding:1px;
+}
+
+#instructions-text {
+	color:white;
+	margin-left:15px;
+	font-size:20px;
+}
+#result-li {
+	line-height:200%;
+	font-size:20px;
+	font-weight:300;
+}
+.voter {
+	background-color:#f44336;
+	border-radius:20px;
+	width:auto;
+	height:auto;
+	display:inline;
+	padding:7px;
+	padding-left:10px;
+	padding-right:10px;
+	color:white;
+	font-size:15px;
+	font-weight:400;
+}
+
+.again {
+	background-color:#2196f3;
+	border-radius:20px;
+	width:25%;
+	margin:auto;
+	text-align:center;
+	padding:10px;
+	margin-top:10px;
+}
+#only {
+	color:white;
+	text-decoration:none;
+}
+
+li a {
+	color:#212121;
+	text-decoration:none;
+	padding:10px;
+	font-size:20px;
+	font-weight:300;
+	line-height:250%;
+	border-radius:20px;
+}
+
+#container {
+	background-color:#eeeeee;
+	border-radius:20px;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:10px;
+	padding:5px;
+}
+.topper {
+	background-color:#bdbdbd;
+	border-radius:20px;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:10px;
+	padding:15px;
+}
+.container {
+	background-color:#eeeeee;
+	border-radius:20px;
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:10px;
+	padding:15px;
+}
+label {
+	font-weight:300;
+	font-size:20px;
+}
+
+body {
+	background-color: #fafafa;
+	font-family:Roboto;
+	padding:1px;
+	margin:0px;
+}

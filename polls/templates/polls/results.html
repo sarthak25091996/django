@@ -1,0 +1,14 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+<div class="heading"><h2 class="heading-text">Results of Question</h2></div>
+<h2 class="topper">{{ question.question_text }}</h2>
+<div class="container">
+<ul>
+{% for choice in question.choice_set.all %}
+    <li id="result-li">{{ choice.choice_text }}&nbsp;&nbsp;<div class="voter">{{ choice.votes }} vote{{ choice.votes|pluralize }}</div></li>
+{% endfor %}
+</ul>
+</div>
+<div class="again"><a href="{% url 'polls:detail' question.id %}" id="only"> Click me vote again</a></div>
+
